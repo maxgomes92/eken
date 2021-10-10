@@ -1,0 +1,52 @@
+h1 {
+  font-size: 42px;
+}
+
+.section {
+  min-height: 600px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .section {
+    min-height: 100vh;
+  }
+}
+
+.section-one {
+  background-image: url("../assets/bg1.jpg");
+  color: white;
+  text-align: center;
+}
+
+.section-two {
+  background-image: url("../assets/bg2.jpg");
+}
+
+/* Section three */
+
+.section-three {
+  align-items: flex-start;
+  background-image: url("../assets/bg3.jpg");
+}
+
+.section-three .title {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.section-three .wrapper {
+  max-width: 600px;
+}
+
+/* Section four */
+
+.section-four {
+  background-color: blueviolet;
+}
