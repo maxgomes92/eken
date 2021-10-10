@@ -1,9 +1,17 @@
+@import url("//hello.myfonts.net/count/3f87f8");
+
+    @font-face {
+      font-family: "HudsonNYPro-Bold";
+      src: url('webFonts/HudsonNYProBold/font.woff2') format('woff2'), url('webFonts/HudsonNYProBold/font.woff') format('woff');
+    }
+
 h1 {
-  font-size: 42px;
+  font-family:"HudsonNYPro-Bold";
+  font-size: 70px;
 }
 
 .section {
-  min-height: 600px;
+  min-height: 740px;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -13,40 +21,247 @@ h1 {
   padding: 20px;
 }
 
+.section p {
+  font-family: georgia;
+  font-size: 14pt;
+  line-height: 1.2;
+}
+
 @media only screen and (max-width: 500px) {
+
   .section {
     min-height: 100vh;
   }
 }
 
+/* Section one*/
+
 .section-one {
-  background-image: url("../assets/bg1.jpg");
+  background-color: #F04E37;
   color: white;
   text-align: center;
 }
 
+/* Section two */
+
 .section-two {
-  background-image: url("../assets/bg2.jpg");
+  background-color:#41AD49;
+  color: white;
+  text-align: center;
+}
+
+.section-two h1 {
+  max-width: 770px;
 }
 
 /* Section three */
 
 .section-three {
-  align-items: flex-start;
-  background-image: url("../assets/bg3.jpg");
-}
-
-.section-three .title {
-  margin-bottom: 40px;
-  text-align: left;
-}
-
-.section-three .wrapper {
-  max-width: 600px;
+  background-image: url("../assets/bg1.jpg");
+  color: white;
+  text-align: center;
+  
 }
 
 /* Section four */
 
+
 .section-four {
-  background-color: blueviolet;
+  align-items: flex-start;
+  background-image: url("../assets/bg2.jpg");
+  color: #3D1107;
 }
+
+.section-four .title {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+  max-width:600px;
+ 
+}
+
+.section-four p {
+  padding-left: 100px;
+  max-width:500px;
+
+}
+
+
+
+/* Section five */
+
+.section-five {
+  align-items: flex-start;
+  background-image: url("../assets/bg3.jpg");
+  color: white;
+}
+
+.section-five .title {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+  max-width:800px;
+}
+
+.section-five p {
+  padding-left: 100px;
+  max-width:500px;
+}
+
+/* Section six */
+
+.section-six {
+  align-items: flex-start;
+  background-color:#3D1107;
+  color: white;
+}
+
+.section-six .title {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+  max-width:940px;
+}
+
+.section-six p {
+  padding-left: 100px;
+  max-width:500px;
+}
+
+.section-six img {
+max-width: 300px;
+margin-left: 50px;
+}
+
+.section-six div {
+  display: flex;
+}
+
+/* Section seven */
+
+.section-seven {
+  align-items: flex-start;
+  background-image: url("../assets/bg4.jpg");
+  color: white;
+}
+
+.section-seven .title {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+  max-width:900px;
+}
+
+.section-seven p {
+  padding-left: 100px;
+  max-width:500px;
+}
+
+
+/* Section eight */
+
+.section-eight {
+  align-items: flex-start;
+  background-color:#116123;
+  color: white;
+}
+
+.section-eight .title {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+  max-width:940px;
+}
+
+.section-eight img {
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+}
+
+.section-eight .right {
+  padding-left: 100px;
+  max-width:500px;
+}
+
+.section-eight .left {
+  padding-left: 40px;
+  max-width:500px;
+}
+
+.section-eight div {
+  display: flex;
+}
+
+/* Section nine */
+
+.section-nine {
+  align-items: flex-start;
+  background-color: #F04E37;
+  color: white;
+  min-height: 500px;
+}
+
+.section-nine .title {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+  max-width:1200px;
+  font-size: 180px;
+}
+
+.section-nine ul {
+  font-family: georgia;
+  padding-left: 100px;
+  max-width:1400px;
+  font-size: 14pt;
+  line-height: 1.8;
+}
+
+/* Section ten */
+
+.section-ten {
+  align-items: flex-start;
+  background-image: url("../assets/bg5.jpg");
+  color: white;
+}
+
+.section-ten .title {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+  max-width:940px;
+}
+
+  .section-ten p {
+    padding-left: 100px;
+    max-width:500px;
+  }
+
+
+.section-ten img {
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+}
+
+.section-ten div {
+  display: flex;
+}
+
+/* Footer */
+footer {
+  background-color: #00050d;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  padding: 20px;
+}
+
+  footer img {
+    width: 200px;
+  }
+  
+  footer div {
+      display: flex;
+    }
