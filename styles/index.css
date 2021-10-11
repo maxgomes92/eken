@@ -1,12 +1,11 @@
 @import url("//hello.myfonts.net/count/3f87f8");
-
-    @font-face {
-      font-family: "HudsonNYPro-Bold";
-      src: url('webFonts/HudsonNYProBold/font.woff2') format('woff2'), url('webFonts/HudsonNYProBold/font.woff') format('woff');
-    }
+@font-face {
+  font-family: "HudsonNYPro-Bold";
+  src: url('webFonts/HudsonNYProBold/font.woff2') format('woff2'), url('webFonts/HudsonNYProBold/font.woff') format('woff');
+}
 
 h1 {
-  font-family:"HudsonNYPro-Bold";
+  font-family: "HudsonNYPro-Bold";
   font-size: 70px;
 }
 
@@ -28,7 +27,6 @@ h1 {
 }
 
 @media only screen and (max-width: 500px) {
-
   .section {
     min-height: 100vh;
   }
@@ -45,7 +43,7 @@ h1 {
 /* Section two */
 
 .section-two {
-  background-color:#41AD49;
+  background-color: #41AD49;
   color: white;
   text-align: center;
 }
@@ -60,11 +58,9 @@ h1 {
   background-image: url("../assets/bg1.jpg");
   color: white;
   text-align: center;
-  
 }
 
 /* Section four */
-
 
 .section-four {
   align-items: flex-start;
@@ -76,17 +72,13 @@ h1 {
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width:600px;
- 
+  max-width: 600px;
 }
 
 .section-four p {
   padding-left: 100px;
-  max-width:500px;
-
+  max-width: 500px;
 }
-
-
 
 /* Section five */
 
@@ -100,19 +92,19 @@ h1 {
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width:800px;
+  max-width: 800px;
 }
 
 .section-five p {
   padding-left: 100px;
-  max-width:500px;
+  max-width: 500px;
 }
 
 /* Section six */
 
 .section-six {
   align-items: flex-start;
-  background-color:#3D1107;
+  background-color: #3D1107;
   color: white;
 }
 
@@ -120,17 +112,17 @@ h1 {
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width:940px;
+  max-width: 940px;
 }
 
 .section-six p {
   padding-left: 100px;
-  max-width:500px;
+  max-width: 500px;
 }
 
 .section-six img {
-max-width: 300px;
-margin-left: 50px;
+  max-width: 300px;
+  margin-left: 50px;
 }
 
 .section-six div {
@@ -149,20 +141,19 @@ margin-left: 50px;
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width:900px;
+  max-width: 900px;
 }
 
 .section-seven p {
   padding-left: 100px;
-  max-width:500px;
+  max-width: 500px;
 }
-
 
 /* Section eight */
 
 .section-eight {
   align-items: flex-start;
-  background-color:#116123;
+  background-color: #116123;
   color: white;
 }
 
@@ -170,7 +161,7 @@ margin-left: 50px;
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width:940px;
+  max-width: 940px;
 }
 
 .section-eight img {
@@ -181,12 +172,12 @@ margin-left: 50px;
 
 .section-eight .right {
   padding-left: 100px;
-  max-width:500px;
+  max-width: 500px;
 }
 
 .section-eight .left {
   padding-left: 40px;
-  max-width:500px;
+  max-width: 500px;
 }
 
 .section-eight div {
@@ -206,14 +197,14 @@ margin-left: 50px;
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width:1200px;
+  max-width: 1200px;
   font-size: 180px;
 }
 
 .section-nine ul {
   font-family: georgia;
   padding-left: 100px;
-  max-width:1400px;
+  max-width: 1400px;
   font-size: 14pt;
   line-height: 1.8;
 }
@@ -230,14 +221,13 @@ margin-left: 50px;
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width:940px;
+  max-width: 940px;
 }
 
-  .section-ten p {
-    padding-left: 100px;
-    max-width:500px;
-  }
-
+.section-ten p {
+  padding-left: 100px;
+  max-width: 500px;
+}
 
 .section-ten img {
   width: 150px;
@@ -250,6 +240,7 @@ margin-left: 50px;
 }
 
 /* Footer */
+
 footer {
   background-color: #00050d;
   color: white;
@@ -258,10 +249,10 @@ footer {
   padding: 20px;
 }
 
-  footer img {
-    width: 200px;
-  }
-  
-  footer div {
-      display: flex;
-    }
+footer img {
+  width: 200px;
+}
+
+footer div {
+  display: flex;
+}
