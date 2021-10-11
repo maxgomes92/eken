@@ -26,7 +26,7 @@ h1 {
 }
 
 /* Section one*/
-
+/*
 .section-one {
   background-color: #F04E37;
   color: white;
@@ -34,7 +34,7 @@ h1 {
 }
 
 /* Section two */
-
+/*
 .section-two {
   background-color: #41AD49;
   color: white;
@@ -46,7 +46,7 @@ h1 {
 }
 
 /* Section three */
-
+/*
 .section-three {
   background-image: url("../assets/bg1.jpg");
   color: white;
@@ -58,7 +58,7 @@ h1 {
 }
 
 /* Section four */
-
+/*
 .section-four {
   align-items: flex-start;
   background-image: url("../assets/bg2.jpg");
@@ -78,7 +78,7 @@ h1 {
 }
 
 /* Section five */
-
+/*
 .section-five {
   align-items: flex-start;
   background-image: url("../assets/bg3.jpg");
@@ -98,7 +98,7 @@ h1 {
 }
 
 /* Section six */
-
+/*
 .section-six {
   align-items: flex-start;
   background-color: #3D1107;
@@ -127,7 +127,7 @@ h1 {
 }
 
 /* Section seven */
-
+/*
 .section-seven {
   align-items: flex-start;
   background-image: url("../assets/bg4.jpg");
@@ -147,7 +147,7 @@ h1 {
 }
 
 /* Section eight */
-
+/*
 .section-eight {
   align-items: flex-start;
   background-color: #116123;
@@ -188,22 +188,26 @@ h1 {
   background-color: #F04E37;
   color: white;
   min-height: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .section-nine .title {
-  margin-bottom: 40px;
   text-align: left;
-  padding-left: 100px;
   max-width: 1200px;
   font-size: 180px;
+  margin-bottom: 40px;
 }
 
 .section-nine ul {
   font-family: georgia;
-  padding-left: 100px;
   max-width: 1400px;
   font-size: 14pt;
-  line-height: 1.8;
+  line-height: 1.2;
+}
+
+.section-nine .content {
+  max-width: 1200px;
 }
 
 /* Section ten */
@@ -281,11 +285,25 @@ footer .info-wrapper p {
     display: none;
   }
 
+  .section-nine {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+
+  .section-nine .title {
+    font-size: 100px;
+  }
+
   h1 {
     font-size: 50px;
   }
 
   p {
+    font-size: 12px;
+  }
+
+  ul {
     font-size: 12px;
   }
 }
@@ -296,11 +314,20 @@ footer .info-wrapper p {
     padding-right: 20px;
   }
 
+  .section-nine {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   h1 {
     font-size: 30px;
   }
 
   p {
+    font-size: 12px;
+  }
+
+  ul {
     font-size: 12px;
   }
 }
