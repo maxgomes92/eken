@@ -1,7 +1,6 @@
-@import url("//hello.myfonts.net/count/3f87f8");
 @font-face {
   font-family: "HudsonNYPro-Bold";
-  src: url('webFonts/HudsonNYProBold/font.woff2') format('woff2'), url('webFonts/HudsonNYProBold/font.woff') format('woff');
+  src: url('../fonts/HudsonNYProBold/font.woff2') format('woff2'), url('../fonts/HudsonNYProBold/font.woff') format('woff');
 }
 
 h1 {
@@ -24,12 +23,6 @@ h1 {
   font-family: georgia;
   font-size: 14pt;
   line-height: 1.2;
-}
-
-@media only screen and (max-width: 500px) {
-  .section {
-    min-height: 100vh;
-  }
 }
 
 /* Section one*/
@@ -215,28 +208,27 @@ h1 {
   align-items: flex-start;
   background-image: url("../assets/bg5.jpg");
   color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.section-ten .header {
+  margin-bottom: 40px;
+  display: flex;
 }
 
 .section-ten .title {
-  margin-bottom: 40px;
-  text-align: left;
-  padding-left: 100px;
+  flex-grow: 1;
+  padding-right: 30px;
+}
+
+.section-ten .content {
   max-width: 940px;
 }
 
-.section-ten p {
-  padding-left: 100px;
-  max-width: 500px;
-}
-
-.section-ten img {
+.section-ten .img-wrapper img {
   width: 150px;
   height: 150px;
-  margin-left: 150px;
-}
-
-.section-ten div {
-  display: flex;
 }
 
 /* Footer */
@@ -247,12 +239,59 @@ footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
   padding: 20px;
-}
-
-footer img {
-  width: 200px;
-}
-
-footer div {
   display: flex;
+  align-items: center;
+}
+
+footer .logo-wrapper img {
+  width: 100%;
+}
+
+footer .logo-wrapper {
+  max-width: 200px;
+  padding-right: 20px;
+}
+
+footer .info-wrapper p {
+  margin-bottom: 10px;
+}
+
+/* Breakpoints */
+/* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
+@media only screen and (max-width: 992px) {
+  .section {
+    min-height: 100vh;
+  }
+
+  .section-ten {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .section-ten img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-ten {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
