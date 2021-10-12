@@ -43,8 +43,6 @@ var x = setInterval(setTime, 1000);
 
 
 
-if ($( window ).width() >= 1024) {
-
     $(function () { // wait for document ready
       //init
       const controller = new ScrollMagic.Controller({
@@ -70,6 +68,6 @@ if ($( window ).width() >= 1024) {
       }
       
     });
-    }
+  
     
     
