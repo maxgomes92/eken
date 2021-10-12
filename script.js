@@ -41,7 +41,7 @@ var x = setInterval(setTime, 1000);
 
 //SCROLL DOWN PANELS (MAJORITY PANELS)
 
-/*
+
 
 if ($( window ).width() >= 1024) {
 
@@ -72,4 +72,4 @@ if ($( window ).width() >= 1024) {
     });
     }
     
-    */
+    

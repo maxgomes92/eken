@@ -6,10 +6,11 @@
 h1 {
   font-family: "HudsonNYPro-Bold";
   font-size: 70px;
+  letter-spacing: -0.5px;
 }
 
 .section {
-  min-height: 740px;
+  min-height: 755px;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -401,6 +402,14 @@ footer .info-wrapper p {
     padding-right: 20px;
   }
 
+  .section-eight .right {
+    max-width: 400px;
+  }
+  
+  .section-eight .left {
+    max-width: 400px;
+  }
+
   .section-eight img {
     display: none;
   }
@@ -420,6 +429,7 @@ footer .info-wrapper p {
 
   .section-six .title {
     padding-left: 10px;
+    max-width: 400px;
   }
   
   .section-six p {
@@ -432,6 +442,7 @@ footer .info-wrapper p {
 
   .section-five .title {
     padding-left: 10px;
+    max-width: 400px;
   }
   
   .section-five p {
@@ -440,12 +451,20 @@ footer .info-wrapper p {
 
   .section-four .title {
     padding-left: 10px;
+    max-width: 300px;
   }
   
   .section-four p {
     padding-left: 10px;
   }
+
+  .section p {
+    max-width: 400px;
+  }
  
+  .section ul {
+    max-width: 400px;
+  }
 
   h1 {
     font-size: 35px;
@@ -453,6 +472,7 @@ footer .info-wrapper p {
 
   p {
     font-size: 10px;
+   
   }
 
   ul {
