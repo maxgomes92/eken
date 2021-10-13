@@ -333,6 +333,10 @@ footer .info-wrapper p {
     min-height: 100vh;
   }
 
+  .section-one h1 {
+    margin-top: -140px;
+  }
+
   .section-ten {
     padding-left: 50px;
     padding-right: 50px;
@@ -452,6 +456,10 @@ footer .info-wrapper p {
     zoom: 2;
     margin-top: -8px;
     margin-right: -8px;
+  }
+
+  .section-one h1 {
+    margin-top: -120px;
   }
 
   .section-ten {
