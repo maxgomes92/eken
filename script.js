@@ -1,10 +1,11 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+function togglePageLinks() {
+  const pageLinksEl = document.querySelector(".page-links");
+
+  if (pageLinksEl.classList.contains("page-links-mobile")) {
+    pageLinksEl.classList.remove("page-links-mobile")
   } else {
-    x.className = "topnav";
+    pageLinksEl.classList.add("page-links-mobile")
   }
 }
 
