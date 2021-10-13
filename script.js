@@ -41,7 +41,7 @@ var x = setInterval(setTime, 1000);
 
 //SCROLL DOWN PANELS (MAJORITY PANELS)
 
-
+/*
 
     $(function () { // wait for document ready
       //init
@@ -69,5 +69,5 @@ var x = setInterval(setTime, 1000);
       
     });
   
-    
+    */
     
