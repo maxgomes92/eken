@@ -554,6 +554,6 @@ footer .info-wrapper p {
   @media only screen and (max-width: 600px) and (orientation:landscape) {
     
     .section {
-    min-height: auto;
+    min-height: initial;
   }
 }
