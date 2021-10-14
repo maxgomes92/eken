@@ -354,8 +354,12 @@ footer .info-wrapper p {
 
 @media only screen and (max-width: 992px) {
 
-  .section {
+  .section :first-child{
     min-height: calc(100vh - 56px);
+  }
+
+  .section {
+    min-height: 100vh;
   }
   
 
@@ -445,9 +449,14 @@ footer .info-wrapper p {
 
 @media only screen and (max-width: 600px) {
 
-  .section {
+  .section :first-child{
     min-height: calc(100vh - 56px);
   }
+
+  .section {
+    min-height: 100vh;
+  }
+
   .section-ten {
     padding-left: 20px;
     padding-right: 20px;
@@ -528,11 +537,26 @@ footer .info-wrapper p {
     min-width: 100vh;
     min-height: calc(100vh - 56px);
   }
+
+  .section :first-child{
+    min-height: calc(100vh - 56px);
+  }
+
+  .section {
+    min-height: 100vh;
+  }
 }
 
 @media only screen and (max-width: 992px) and (orientation:landscape) {
   .section {
     min-width: 100vh;
-    min-height: calc(100vh - 56px);
   }
+    
+    .section :first-child{
+      min-height: calc(100vh - 56px);
+    }
+  
+    .section {
+      min-height: 100vh;
+    }
 }
