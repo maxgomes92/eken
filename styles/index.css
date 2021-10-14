@@ -525,12 +525,12 @@ footer .info-wrapper p {
 
 @media only screen and (max-width: 600px) and (orientation:landscape) {
   .section {
-    min-height: 90vh;
+    min-width: 100vh;
   }
 }
 
 @media only screen and (max-width: 992px) and (orientation:landscape) {
   .section {
-    min-height: 90vh;
+    min-width: 100vh;
   }
 }
