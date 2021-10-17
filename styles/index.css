@@ -80,7 +80,7 @@ h1 {
 }
 
 .section-one h1 {
-  margin-top: -70px;
+margin-top: calc(5% - 155px);
 }
 
 /* Section two */
@@ -354,10 +354,6 @@ footer .info-wrapper p {
 
 @media only screen and (max-width: 992px) {
 
-  .section :first-child{
-    min-height: calc(100vh - 56px);
-  }
-
   .section {
     min-height: 100vh;
   }
@@ -449,9 +445,6 @@ footer .info-wrapper p {
 
 @media only screen and (max-width: 600px) {
 
-  .section :first-child{
-    min-height: calc(100vh - 56px);
-  }
 
   .section {
     min-height: 100vh;
@@ -534,29 +527,16 @@ footer .info-wrapper p {
 
 @media only screen and (max-width: 600px) and (orientation:landscape) {
   .section {
-    min-width: 100vh;
-    min-height: calc(100vh - 56px);
-  }
-
-  .section :first-child{
-    min-height: calc(100vh - 56px);
-  }
-
-  .section {
     min-height: 100vh;
+    min-width: 100vh;
   }
+
 }
 
 @media only screen and (max-width: 992px) and (orientation:landscape) {
   .section {
+    min-height: 100vh;
     min-width: 100vh;
   }
-    
-    .section :first-child{
-      min-height: calc(100vh - 56px);
-    }
   
-    .section {
-      min-height: 100vh;
-    }
 }
