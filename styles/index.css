@@ -379,7 +379,6 @@ footer .text {
     min-height: 100vh;
   }
   
-
   .section-ten {
     padding-left: 50px;
     padding-right: 50px;
@@ -397,6 +396,7 @@ footer .text {
   .section-eight {
     padding-left: 10px;
     padding-right: 10px;
+    
   }
   .section-eight img {
     display: none;
@@ -469,9 +469,8 @@ footer .text {
 }
 
 @media only screen and (max-width: 600px) {
-  .section {
-    min-height: 100vh;
-  }
+  
+
 
   .section-one {
     min-height: calc(100vh - 55px);
@@ -560,5 +559,9 @@ footer .text {
 @media only screen and (max-width: 992px) and (orientation:landscape) {
   .section {
     min-height: 100vh;
+  }
+
+  body {
+    background-color: #ffffff;
   }
 }
