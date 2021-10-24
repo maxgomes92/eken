@@ -472,7 +472,9 @@ footer .text {
 
 @media only screen and (max-width: 600px) {
   
-
+.section .title {
+  margin-bottom: 25px;
+}
 
   .section-one {
     min-height: calc(100vh - 55px);
@@ -482,6 +484,11 @@ footer .text {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .section-ten .header {
+    margin-bottom: 8px;
+  }
+
   .section-nine {
     padding-left: 20px;
     padding-right: 20px;
@@ -555,7 +562,7 @@ footer .text {
     max-width: 400px;
   }
   h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   p {
     font-size: 10px;
@@ -570,6 +577,7 @@ footer .text {
   footer .text {
     display: none;
   }
+
 }
 
 @media only screen and (max-width: 992px) and (orientation: landscape) {
