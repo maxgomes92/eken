@@ -624,8 +624,7 @@ footer .text {
 }
 
 .section-eight .left {
-  font-size: 10pt;
-  max-width: 920px;
+  display: none;
 }
 
 .section-ten p {
