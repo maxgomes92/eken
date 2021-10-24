@@ -571,3 +571,57 @@ footer .text {
     display: none;
   }
 }
+
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+
+  .section-ten h1 {
+    max-width: 800px;
+  font-size: 40px;
+  }
+
+  .section-ten .header {
+    margin-bottom: 10px;
+  }
+
+.section .title {
+  max-width: 800px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section-one h1 {
+  font-size: 45px;
+}
+
+.section-two h1 {
+  font-size: 45px;
+}
+
+.section-three h1 {
+  font-size: 45px;
+}
+
+.section-nine ul {
+  max-width: 750px;
+}
+
+.section p {
+  max-width: 790px;
+}
+
+.section-eight .title {
+  max-width: 750px;
+  font-size: 30px;
+}
+
+.section-eight .right {
+  font-size: 11pt;
+  max-width: 920px;
+}
+
+.section-eight .left {
+  font-size: 11pt;
+  max-width: 920px;
+}
+
+}
