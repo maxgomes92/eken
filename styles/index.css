@@ -387,7 +387,9 @@ footer .text {
   .section-ten {
     padding-left: 50px;
     padding-right: 50px;
+      margin-bottom: 0px;
   }
+  
   .section-ten img {
     display: none;
   }
@@ -486,6 +488,8 @@ footer .text {
   .section-ten {
     padding-left: 20px;
     padding-right: 20px;
+      margin-bottom: 0px;
+    
   }
 
   .section-ten .header {
@@ -633,6 +637,10 @@ footer .text {
   padding-left: 40px;
 }
 
+.section-ten {
+  margin-bottom: 0px;
+}
+
 
 .section-ten h1 {
   padding-left: 0px;
@@ -708,5 +716,10 @@ footer .text {
 .section-ten p {
   font-size: 9pt;
 }
+
+.section-ten {
+  margin-bottom: 0px;
+}
+
 
 }
