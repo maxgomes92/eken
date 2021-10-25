@@ -92,4 +92,27 @@ var x = setInterval(setTime, 1000);
     });
   
 
+
+    const controller = new ScrollMagic.Controller();
+
+// index: 0, 1, 2, 3...
+// const list = ['#block-one'] // length is 2
+
+// 1st -> initial value
+// 2nd -> while condition
+// 3rd -> increment
+//for (let el = 0; el < list.length; el++) {
+// This part will be executed as many times as elements of my list
+const scene = new ScrollMagic.Scene({
+  triggerElement: ".headline",
+  triggerHook: 0.7, // show, when scrolled 10% into view
+  duration: "40%", // hide 10% before exiting view (80% + 10% from bottom)
+  offset: 70 // move trigger to center of element
+})
+
+scene
+  .setClassToggle(".headline", "visible") // add class to reveal
+  //.addIndicators() // add indicators (requires plugin)
+  .addTo(controller);
+
     

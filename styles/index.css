@@ -115,6 +115,16 @@ h1 {
   max-width: 1100px;
 }
 
+.headline {
+  opacity: 0;
+      transition: 1.5s opacity linear;
+}
+
+.headline.visible {
+  opacity: 1;
+      transition: 1.5s opacity linear;
+}
+
 /* Section four */
 
 .section-four {
