@@ -56,7 +56,7 @@ h1 {
 }
 
 .section {
-  min-height: 755px;
+  min-height: 100vh;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,6 @@ h1 {
   justify-content: center;
   background-size: cover;
   padding: 20px;
-  margin-bottom: 200px;
 }
 
 .section p {
@@ -276,6 +275,7 @@ h1 {
   color: white;
   padding-left: 100px;
   padding-right: 100px;
+  min-height: 100vh;
 }
 
 .section-ten .header {
