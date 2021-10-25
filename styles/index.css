@@ -3,6 +3,9 @@
   src: url('../fonts/HudsonNYProBold/font.woff2') format('woff2'), url('../fonts/HudsonNYProBold/font.woff') format('woff');
 }
 
+body {
+  background-color: #F04E37;
+}
 
 h1 {
   font-family: "HudsonNYPro-Bold";
@@ -86,8 +89,6 @@ h1 {
   background-color: #F04E37;
   color: white;
   text-align: center;
-  margin-top: -55px;
-  min-height: calc(100vh + 55px);
 }
 
 /* Section two */
@@ -316,9 +317,11 @@ footer {
 
 footer .logo-wrapper img {
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
   max-height: 80px;
+  margin-right: 10px;
 }
+
 
 footer .logo-wrapper {
   max-width: 650px;
@@ -340,7 +343,7 @@ footer .info-wrapper a {
 }
 
 footer .text {
-  width: 420px;
+  width: 500px;
   display: inline-block;
   padding-left: 25px;
 }
