@@ -64,6 +64,7 @@ h1 {
   justify-content: center;
   background-size: cover;
   padding: 20px;
+  margin-bottom: 200px;
 }
 
 .section p {
@@ -245,6 +246,7 @@ h1 {
   min-height: 500px;
   padding-left: 100px;
   padding-right: 100px;
+  margin-bottom: 0px;
 }
 
 .section-nine .title {
@@ -585,10 +587,33 @@ footer .text {
 .section .title {
   padding-left: 40px;
   margin-bottom: 25px;
+  font-size: 55px;
+}
+
+.section h1 {
+  font-size: 55px;
 }
 
 .section p {
   padding-left: 40px;
+}
+
+.section {
+  margin-bottom: 300px;
+  min-height: 110vh;
+}
+
+.section-four .title {
+  max-width: 900px;
+}
+
+.section-seven .title {
+  font-size: 50px;
+}
+
+.section-eight h1 {
+  max-width: 1100px;
+  font-size: 55px;
 }
 
 .section-eight .right {
@@ -599,6 +624,10 @@ footer .text {
   padding-left: 5px;
 }
 
+.section-nine .title {
+  font-size: 90px;
+}
+
 .section-nine ul {
   padding-left: 40px;
 }
@@ -606,6 +635,7 @@ footer .text {
 
 .section-ten h1 {
   padding-left: 0px;
+  font-size: 55px;
 }
 
 .section-ten .header {
