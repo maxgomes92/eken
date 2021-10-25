@@ -35,7 +35,7 @@ section {
     text-align: left;
     color: #ffffff;
     padding: 5px;
-    font-size: 18px;
+    font-size: 20px;
 
     background: none;
 	border: none;
@@ -46,10 +46,10 @@ section {
   div {
     font-family:Georgia, 'Times New Roman', Times, serif; 
         color: #ffffff;
-        font-size: 16px;
-        max-width: 600px;
+        font-size: 18px;
+        max-width: 890px;
         text-align: left;
-        line-height: 1.4;
+        line-height: 1.6;
         padding: 2px;
         padding-top: 10px;
   }

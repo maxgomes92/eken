@@ -14,7 +14,7 @@ h1 {
   font-size: 70px;
   letter-spacing: -0.5px;
   padding: 40px;
-  max-width: 650px;
+  max-width: 1100px;
 }
 
 section {
@@ -32,7 +32,7 @@ section {
     font-family:Georgia, 'Times New Roman', Times, serif; 
         color: #ffffff;
         font-size: 14pt;
-        max-width: 600px;
+        max-width: 710px;
         text-align: left;
         line-height: 1.4;
         padding: 2px;
