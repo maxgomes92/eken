@@ -479,7 +479,7 @@ footer .text {
 }
 
   .section-one {
-    min-height: calc(100vh - 55px);
+    min-height: calc(110vh - 55px);
   }
 
   .section-ten {
@@ -679,6 +679,11 @@ footer .text {
 
 .section p {
   max-width: 790px;
+  font-size: 10pt;
+}
+
+.section ul {
+  font-size: 9pt;
 }
 
 .section-seven .title {
@@ -691,7 +696,7 @@ footer .text {
 }
 
 .section-eight .right {
-  font-size: 10pt;
+  font-size: 9pt;
   max-width: 920px;
 }
 
@@ -700,7 +705,7 @@ footer .text {
 }
 
 .section-ten p {
-  font-size: 10pt;
+  font-size: 9pt;
 }
 
 }
