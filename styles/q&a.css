@@ -72,8 +72,8 @@ a {
           font-size: 12px;
         }
 
-        ul {
-          font-size: 12px;
+        li {
+          font-size: 16px;
         }
 
       }
@@ -93,7 +93,7 @@ a {
         font-size: 10px;
       }
 
-      ul {
-        font-size: 10px;
+      li {
+        font-size: 16px;
       }
     }
