@@ -70,6 +70,7 @@ h1 {
   font-family: georgia;
   font-size: 14pt;
   line-height: 1.2;
+  max-width: 650px;
 
 }
 
@@ -126,7 +127,6 @@ h1 {
 
 .section-four p {
   padding-left: 100px;
-  max-width: 500px;
 }
 
 /* Section five */
@@ -146,7 +146,6 @@ h1 {
 
 .section-five p {
   padding-left: 100px;
-  max-width: 500px;
 }
 
 /* Section six */
@@ -166,7 +165,6 @@ h1 {
 
 .section-six p {
   padding-left: 100px;
-  max-width: 500px;
 }
 
 .section-six img {
@@ -195,7 +193,6 @@ h1 {
 
 .section-seven p {
   padding-left: 100px;
-  max-width: 500px;
 }
 
 /* Section eight */
@@ -221,7 +218,7 @@ h1 {
 
 .section-eight .right {
   padding-left: 100px;
-  max-width: 500px;
+  max-width: 580px;
 }
 
 .section-eight .left {
