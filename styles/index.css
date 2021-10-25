@@ -86,10 +86,8 @@ h1 {
   background-color: #F04E37;
   color: white;
   text-align: center;
-}
-
-.section-one h1 {
-  margin-top: calc(5% - 155px);
+  margin-top: -55px;
+  min-height: calc(100vh + 55px);
 }
 
 /* Section two */
