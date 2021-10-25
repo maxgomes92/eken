@@ -580,6 +580,40 @@ footer .text {
 
 }
 
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+
+.section .title {
+  padding-left: 40px;
+  margin-bottom: 25px;
+}
+
+.section p {
+  padding-left: 40px;
+}
+
+.section-eight .right {
+  padding-left: 40px;
+}
+
+.section-nine {
+  padding-left: 5px;
+}
+
+.section-nine ul {
+  padding-left: 40px;
+}
+
+
+.section-ten h1 {
+  padding-left: 0px;
+}
+
+.section-ten .header {
+  margin-bottom: 15px;
+}
+
+}
+
 @media only screen and (max-width: 992px) and (orientation: landscape) {
 
   .section-ten h1 {
