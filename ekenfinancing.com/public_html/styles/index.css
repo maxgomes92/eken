@@ -12,16 +12,12 @@ h1 {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color:rgba(0, 0, 0, .4);
+  background-color: #F04E37;
   padding-top: 10px;
   display: flex;
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 5px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 
 .topnav .logo img {
@@ -255,7 +251,6 @@ h1 {
   max-width: 1200px;
   font-size: 180px;
   margin-bottom: 40px;
-  margin-top: 40px;
 }
 
 .section-nine ul {
