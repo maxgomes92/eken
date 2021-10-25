@@ -620,6 +620,11 @@ footer .text {
 
 .section-eight .right {
   padding-left: 40px;
+  font-size: 12pt;
+}
+
+.section-eight .left {
+  font-size: 12pt;
 }
 
 .section-nine {
@@ -702,7 +707,7 @@ footer .text {
 }
 
 .section-eight .right {
-  font-size: 9pt;
+  font-size: 8pt;
   max-width: 920px;
 }
 
