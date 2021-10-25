@@ -64,7 +64,6 @@ h1 {
   justify-content: center;
   background-size: cover;
   padding: 20px;
-  margin-bottom: 200px;
 }
 
 .section p {
@@ -389,7 +388,7 @@ footer .text {
     padding-right: 50px;
       margin-bottom: 0px;
   }
-  
+
   .section-ten img {
     display: none;
   }
