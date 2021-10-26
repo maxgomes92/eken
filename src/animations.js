@@ -1,3 +1,7 @@
+function shouldAnimationBeEnabled () {
+  return window.innerHeight * window.innerWidth > 600000 // Pixel area
+}
+
 function setUpAnimations() {
   const sectionController = new ScrollMagic.Controller({
     globalSceneOptions: {
@@ -42,4 +46,18 @@ function setUpAnimations() {
     .setClassToggle(".headline", "visible") // add class to reveal
     //.addIndicators() // add indicators (requires plugin)
     .addTo(headerController);
+
+  function toggleAnimation (state) {
+    headerController.enabled(state)
+    sectionController.enabled(state)
+  }
+
+  if (!shouldAnimationBeEnabled()) {
+    toggleAnimation(false)
+  }
+
+  window.onresize = () => {
+    headerController.update()
+    sectionController.update()
+  }
 }
