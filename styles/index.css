@@ -387,6 +387,10 @@ footer .text {
   .section-one h1 {
     margin-top: calc(5% - 100px);
   }
+  
+  .headline {
+    opacity: 1;
+  }
 }
 
 /* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
@@ -594,7 +598,7 @@ footer .text {
     padding-left: 40px;
   }
   .section {
-    min-height: 110vh;
+    min-height:100vh;
   }
   .section-four .title {
     max-width: 900px;
