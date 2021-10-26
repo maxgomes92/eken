@@ -370,13 +370,13 @@ footer .text {
   .topnav .page-links-mobile {
     display: flex;
     position: absolute;
-    top: 58px;
+    top: 51px;
     left: 0;
     flex-direction: column;
     width: 100%;
     padding: 0;
     text-align: right;
-    background: rgba(191, 71, 54, .8);
+    background: rgba(0, 0, 0, .4);
     padding-top: 20px;
     z-index: 1;
   }
