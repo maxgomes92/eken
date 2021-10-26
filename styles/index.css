@@ -492,7 +492,7 @@ footer .text {
     margin-bottom: 25px;
   }
   .section-one {
-    min-height: calc(110vh - 55px);
+    min-height:(100vh - 55px);
   }
   .section-ten {
     padding-left: 20px;
