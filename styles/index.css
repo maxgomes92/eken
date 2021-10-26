@@ -14,8 +14,9 @@ h1 {
 }
 
 /* Add a black background color to the top navigation */
+
 .topnav {
-  background-color:#F04E37;
+  background-color: #F04E37;
   padding-top: 5px;
   display: flex;
   align-items: center;
@@ -32,6 +33,7 @@ h1 {
 }
 
 /* Style the links inside the navigation bar */
+
 .topnav a {
   color: white;
   text-decoration: none;
@@ -42,6 +44,7 @@ h1 {
 }
 
 /* Hide the link that should open and close the topnav on small screens */
+
 .topnav .icon-wrapper {
   flex-grow: 1;
   text-align: right;
@@ -79,7 +82,6 @@ h1 {
   font-size: 14pt;
   line-height: 1.4;
   max-width: 650px;
-
 }
 
 /* Section one*/
@@ -116,12 +118,12 @@ h1 {
 
 .headline {
   opacity: 0;
-      transition: 1.5s opacity linear;
+  transition: 1.5s opacity linear;
 }
 
 .headline.visible {
   opacity: 1;
-      transition: 1.5s opacity linear;
+  transition: 1.5s opacity linear;
 }
 
 /* Section four */
@@ -331,7 +333,6 @@ footer .logo-wrapper img {
   margin-right: 10px;
 }
 
-
 footer .logo-wrapper {
   max-width: 650px;
   padding-right: 20px;
@@ -360,7 +361,6 @@ footer .text {
 /* Breakpoints */
 
 @media only screen and (max-width:1200px) {
-
   .topnav .page-links {
     display: none;
   }
@@ -384,7 +384,6 @@ footer .text {
     padding-bottom: 20px;
     padding-right: 20px;
   }
-
   .section-one h1 {
     margin-top: calc(5% - 100px);
   }
@@ -393,17 +392,14 @@ footer .text {
 /* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
 
 @media only screen and (max-width: 992px) {
-
   .section {
     min-height: 100vh;
   }
-  
   .section-ten {
     padding-left: 50px;
     padding-right: 50px;
-      margin-bottom: 0px;
+    margin-bottom: 0px;
   }
-  
   .section-ten img {
     display: none;
   }
@@ -417,7 +413,6 @@ footer .text {
   .section-eight {
     padding-left: 10px;
     padding-right: 10px;
-    
   }
   .section-eight img {
     display: none;
@@ -483,33 +478,26 @@ footer .text {
   nav {
     display: none;
   }
-
   footer .logo-wrapper {
     align-items: center;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  
-.section .title {
-  margin-bottom: 25px;
-}
-
+  .section .title {
+    margin-bottom: 25px;
+  }
   .section-one {
     min-height: calc(110vh - 55px);
   }
-
   .section-ten {
     padding-left: 20px;
     padding-right: 20px;
-      margin-bottom: 0px;
-    
+    margin-bottom: 0px;
   }
-
   .section-ten .header {
     margin-bottom: 8px;
   }
-
   .section-nine {
     padding-left: 20px;
     padding-right: 20px;
@@ -523,22 +511,18 @@ footer .text {
   .section-eight .left {
     max-width: 400px;
   }
-
   .section-eight .title {
     font-size: 30px;
     padding-left: 20px;
   }
-
   .section-eight .right {
     font-size: 11.5pt;
     padding-left: 20px;
   }
-
   .section-eight .left {
     font-size: 11.5pt;
     padding-left: 20px;
   }
-
   .section-eight img {
     display: none;
   }
@@ -594,151 +578,115 @@ footer .text {
   nav {
     display: none;
   }
-
   footer .text {
     display: none;
   }
-
 }
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
-
-.section .title {
-  padding-left: 40px;
-  margin-bottom: 25px;
-  font-size: 55px;
-}
-
-.section h1 {
-  font-size: 55px;
-}
-
-.section p {
-  padding-left: 40px;
-}
-
-.section {
-  margin-bottom: 300px;
-  min-height: 110vh;
-}
-
-.section-four .title {
-  max-width: 900px;
-}
-
-.section-seven .title {
-  font-size: 50px;
-}
-
-.section-eight h1 {
-  max-width: 1100px;
-  font-size: 55px;
-}
-
-.section-eight .right {
-  padding-left: 40px;
-  font-size: 12pt;
-}
-
-.section-eight .left {
-  font-size: 12pt;
-}
-
-.section-nine {
-  padding-left: 5px;
-}
-
-.section-nine .title {
-  font-size: 90px;
-}
-
-.section-nine ul {
-  padding-left: 40px;
-}
-
-.section-ten {
-  margin-bottom: 0px;
-}
-
-
-.section-ten h1 {
-  padding-left: 0px;
-  font-size: 55px;
-}
-
-.section-ten .header {
-  margin-bottom: 15px;
-}
-
+  .section .title {
+    padding-left: 40px;
+    margin-bottom: 25px;
+    font-size: 55px;
+  }
+  .section h1 {
+    font-size: 55px;
+  }
+  .section p {
+    padding-left: 40px;
+  }
+  .section {
+    margin-bottom: 300px;
+    min-height: 110vh;
+  }
+  .section-four .title {
+    max-width: 900px;
+  }
+  .section-seven .title {
+    font-size: 50px;
+  }
+  .section-eight h1 {
+    max-width: 1100px;
+    font-size: 55px;
+  }
+  .section-eight .right {
+    padding-left: 40px;
+    font-size: 12pt;
+  }
+  .section-eight .left {
+    font-size: 12pt;
+  }
+  .section-nine {
+    padding-left: 5px;
+  }
+  .section-nine .title {
+    font-size: 90px;
+  }
+  .section-nine ul {
+    padding-left: 40px;
+  }
+  .section-ten {
+    margin-bottom: 0px;
+  }
+  .section-ten h1 {
+    padding-left: 0px;
+    font-size: 55px;
+  }
+  .section-ten .header {
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width: 992px) and (orientation: landscape) {
-
   .section-ten h1 {
     max-width: 800px;
-  font-size: 40px;
+    font-size: 40px;
   }
-
   .section-ten .header {
     margin-bottom: 10px;
   }
-
-.section .title {
-  max-width: 800px;
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-
-.section-one h1 {
-  font-size: 45px;
-}
-
-.section-two h1 {
-  font-size: 45px;
-}
-
-.section-three h1 {
-  font-size: 45px;
-}
-
-.section-nine ul {
-  max-width: 750px;
-}
-
-.section p {
-  max-width: 790px;
-  font-size: 9pt;
-}
-
-.section ul {
-  font-size: 9pt;
-}
-
-.section-seven .title {
-  font-size: 35px;
-}
-
-.section-eight .title {
-  max-width: 750px;
-  font-size: 30px;
-}
-
-.section-eight .right {
-  font-size: 8pt;
-  max-width: 920px;
-}
-
-.section-eight .left {
-  display: none;
-}
-
-.section-ten p {
-  font-size: 9pt;
-}
-
-.section-ten {
-  margin-bottom: 0px;
-}
-
-
+  .section .title {
+    max-width: 800px;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .section-one h1 {
+    font-size: 45px;
+  }
+  .section-two h1 {
+    font-size: 45px;
+  }
+  .section-three h1 {
+    font-size: 45px;
+  }
+  .section-nine ul {
+    max-width: 750px;
+  }
+  .section p {
+    max-width: 790px;
+    font-size: 9pt;
+  }
+  .section ul {
+    font-size: 9pt;
+  }
+  .section-seven .title {
+    font-size: 35px;
+  }
+  .section-eight .title {
+    max-width: 750px;
+    font-size: 30px;
+  }
+  .section-eight .right {
+    font-size: 8pt;
+    max-width: 920px;
+  }
+  .section-eight .left {
+    display: none;
+  }
+  .section-ten p {
+    font-size: 9pt;
+  }
+  .section-ten {
+    margin-bottom: 0px;
+  }
 }
