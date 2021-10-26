@@ -9,15 +9,23 @@ function togglePageLinks() {
   }
 }
 
-var prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  const currentScrollPos = window.pageYOffset;
+  const myTopNavEl = document.getElementById("myTopnav")
+
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("myTopnav").style.top = "0";
+    myTopNavEl.style.top = "0";
   } else {
-    document.getElementById("myTopnav").style.top = "-52px";
+    myTopNavEl.style.top = "-52px";
   }
   prevScrollpos = currentScrollPos;
+
+  if (currentScrollPos > 100) {
+    myTopNavEl.style['background-color'] = 'rgba(0, 0, 0, .4)';
+  } else {
+    myTopNavEl.style['background-color'] = '#F04E37';
+  }
 }
 
 

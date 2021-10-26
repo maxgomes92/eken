@@ -15,7 +15,7 @@ h1 {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color:rgba(0, 0, 0, .4);
+  background-color:#F04E37;
   padding-top: 5px;
   display: flex;
   align-items: center;
@@ -23,7 +23,6 @@ h1 {
   padding-right: 10px;
   padding-bottom: 0px;
   position: sticky;
-  top: 0;
   z-index: 100;
   transition: top 0.3s;
 }
