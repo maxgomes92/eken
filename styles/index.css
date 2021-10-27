@@ -699,6 +699,11 @@ footer .text {
   .section-three h1 {
     font-size: 45px;
   }
+
+  .section-nine .title {
+    font-size: 100px;
+  }
+
   .section-nine ul {
     max-width: 750px;
   }
@@ -712,6 +717,12 @@ footer .text {
   .section-seven .title {
     font-size: 35px;
   }
+ 
+  .section-eight {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .section-eight .title {
     max-width: 750px;
     font-size: 35px;
