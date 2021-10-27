@@ -609,6 +609,7 @@ footer .text {
   }
   .section p {
     padding-left: 40px;
+    font-size: 12pt;
   }
   .section {
     min-height:100vh;
@@ -625,19 +626,21 @@ footer .text {
   }
   .section-eight .right {
     padding-left: 40px;
-    font-size: 12pt;
   }
   .section-eight .left {
-    font-size: 12pt;
+    padding-left: 40px;
   }
   .section-nine {
     padding-left: 5px;
+    min-height:400px;
   }
   .section-nine .title {
     font-size: 90px;
+    letter-spacing: -3px;
   }
   .section-nine ul {
     padding-left: 40px;
+    font-size: 12pt;
   }
   .section-ten {
     margin-bottom: 0px;
@@ -678,10 +681,10 @@ footer .text {
   }
   .section p {
     max-width: 790px;
-    font-size: 9pt;
+    font-size: 11pt;
   }
   .section ul {
-    font-size: 9pt;
+    font-size: 11pt;
   }
   .section-seven .title {
     font-size: 35px;
@@ -691,7 +694,6 @@ footer .text {
     font-size: 35px;
   }
   .section-eight .right {
-    font-size: 9pt;
     max-width: 800px;
   }
 
@@ -700,7 +702,7 @@ footer .text {
   }
  
   .section-ten p {
-    font-size: 9pt;
+    font-size: 12pt;
   }
   .section-ten {
     margin-bottom: 0px;
