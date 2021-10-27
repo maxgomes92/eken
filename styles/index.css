@@ -217,6 +217,7 @@ h1 {
   align-items: flex-start;
   background-color: #116123;
   color: white;
+  position: relative;
 }
 
 .section-eight .title {
@@ -260,6 +261,7 @@ h1 {
   padding-left: 100px;
   padding-right: 100px;
   margin-bottom: 0px;
+  position: relative;
 }
 
 .section-nine .title {
@@ -268,6 +270,7 @@ h1 {
   font-size: 180px;
   margin-bottom: 40px;
   margin-top: 40px;
+  letter-spacing: -13px;
 }
 
 .section-nine ul {
@@ -290,6 +293,7 @@ h1 {
   padding-left: 100px;
   padding-right: 100px;
   min-height: 100vh;
+  position: relative;
 }
 
 .section-ten .header {
@@ -413,6 +417,7 @@ footer .text {
   }
   .section-nine .title {
     font-size: 100px;
+    letter-spacing: 0px;
   }
   .section-eight {
     padding-left: 10px;
@@ -506,6 +511,7 @@ footer .text {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .section-eight {
     padding-left: 10px;
   }
