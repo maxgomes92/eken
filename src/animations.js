@@ -1,6 +1,4 @@
-/* function shouldAnimationBeEnabled () {
-  return window.innerHeight * window.innerWidth > 600000 // Pixel area
-} */
+
 
 function setUpAnimations() {
   const sectionController = new ScrollMagic.Controller({
@@ -56,13 +54,6 @@ function setUpAnimations() {
     headerController.enabled(state)
     sectionController.enabled(state)
   }
-
-
-  if 
-  (!shouldAnimationBeEnabled()) {
-    toggleAnimation(false)
-  }
-  
 
   
 

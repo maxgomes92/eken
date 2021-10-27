@@ -317,6 +317,10 @@ h1 {
   height: 150px;
 }
 
+.section-ten .text-show-phone {
+  display: none;
+}
+
 /* Footer */
 
 footer {
@@ -397,6 +401,11 @@ footer .text {
   .headline {
     opacity: 1;
   }
+
+  .section-ten .text-show-phone {
+    display: none;
+  }
+
 }
 
 /* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
@@ -495,6 +504,10 @@ footer .text {
   footer .logo-wrapper {
     align-items: center;
   }
+
+  .section-ten .text-show-phone {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -507,7 +520,8 @@ footer .text {
   .section-ten {
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
+    min-height: 110vh;
   }
   .section-ten .header {
     margin-bottom: 8px;
@@ -594,7 +608,12 @@ footer .text {
     display: none;
   }
   footer .text {
-    display: none;
+      display: none;
+    }
+  
+  .section-ten .text-show-phone {
+    margin-top: 140px;
+    display: block;
   }
 }
 
@@ -652,6 +671,10 @@ footer .text {
   .section-ten .header {
     margin-bottom: 15px;
   }
+
+  .section-ten .text-show-phone {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) and (orientation: landscape) {
@@ -706,5 +729,9 @@ footer .text {
   }
   .section-ten {
     margin-bottom: 0px;
+  }
+
+  .section-ten .text-show-phone {
+    display: none;
   }
 }
