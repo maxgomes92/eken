@@ -414,8 +414,16 @@ footer .text {
   .section {
     min-height: 100vh;
   }
+
+  .section .title {
+    padding-left: 40px;
+  }
+
+  .section p {
+    padding-left: 40px;
+  }
   .section-ten {
-    padding-left: 50px;
+    padding-left: 20px;
     padding-right: 50px;
     margin-bottom: 0px;
   }
@@ -423,18 +431,18 @@ footer .text {
     display: none;
   }
   .section-nine {
-    padding-left: 50px;
+    padding-left: 40px;
     padding-right: 50px;
     min-height: 500px;
   }
   .section-nine .title {
     font-size: 100px;
     letter-spacing: 0px;
+    padding-left: 10px;
   }
   .section-eight {
     padding-top: 30px;
     padding-bottom: 20px;
-    padding-left: 10px;
     padding-right: 10px;
   }
   .section-eight img {
@@ -442,14 +450,12 @@ footer .text {
   }
   .section-eight .title {
     margin-bottom: 40px;
-    padding-left: 40px;
   }
   .section-eight .right {
-    padding-left: 40px;
     max-width: 500px;
+    padding-left: 40px;
   }
   .section-eight .left {
-    padding-left: 40px;
     max-width: 500px;
   }
   .section-eight div {
@@ -459,36 +465,13 @@ footer .text {
     display: block;
   }
   .section-seven {
-    padding-left: 30px;
     padding-right: 40px;
   }
-  .section-seven .title {
-    padding-left: 30px;
-  }
-  .section-seven p {
-    padding-left: 30px;
-  }
-  .section-six .title {
-    padding-left: 50px;
-  }
-  .section-six p {
-    padding-left: 50px;
-  }
+
   .section-six img {
     display: none;
   }
-  .section-five .title {
-    padding-left: 50px;
-  }
-  .section-five p {
-    padding-left: 50px;
-  }
-  .section-four .title {
-    padding-left: 50px;
-  }
-  .section-four p {
-    padding-left: 50px;
-  }
+
   h1 {
     font-size: 55px;
   }
@@ -518,18 +501,30 @@ footer .text {
     min-height:(100vh - 55px);
   }
   .section-ten {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 20px;
     padding-bottom: 0;
     min-height: 110vh;
   }
-  .section-ten .header {
+
+  .section-ten .title {
     margin-bottom: 8px;
+    padding-left: 30px;
+    font-size: 48px;
+  }
+
+  .section-ten p {
+    padding-left: 30px;
   }
   .section-nine {
-    padding-left: 20px;
+    padding-left: 30px;
     padding-right: 20px;
   }
+  .section-nine .title {
+    font-size: 48px;
+    padding-left: 0px;
+  }
+
 
   .section-eight {
     padding-left: 10px;
@@ -652,10 +647,12 @@ footer .text {
   .section-nine {
     padding-left: 5px;
     min-height:400px;
+    padding-left: 20px;
   }
   .section-nine .title {
     font-size: 90px;
     letter-spacing: -3px;
+    padding-left: 40px;
   }
   .section-nine ul {
     padding-left: 40px;
