@@ -507,6 +507,11 @@ footer .text {
     min-height: 110vh;
   }
 
+  .section-ten .header {
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
   .section-ten .title {
     margin-bottom: 8px;
     padding-left: 30px;
@@ -525,7 +530,6 @@ footer .text {
     font-size: 48px;
     padding-left: 0px;
   }
-
 
   .section-eight {
     padding-left: 10px;
