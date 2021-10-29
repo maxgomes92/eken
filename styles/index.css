@@ -352,14 +352,8 @@ footer .logo-wrapper {
 
 footer .info-wrapper {
   align-self: flex-end;
-  display: inline-flex;
-  align-items: center;
 }
 
-footer .info-wrapper .info-text {
-  display: inline-block;
-  padding-left: 18px;
-}
 
 
 footer .info-wrapper p {
@@ -374,10 +368,6 @@ footer .text {
   width: 500px;
   display: inline-block;
   padding-left: 25px;
-}
-
-.en-icon {
-  max-width: 50px;
 }
 
 
