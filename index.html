@@ -50,15 +50,15 @@
       <img src="./assets/logo.png" class="active" alt="logo">
     </a>
     <div class="page-links">
-      <a href="#five" onclick="togglePageLinks()">SKOGEN ÄR HALVFULL</a>
-      <a href="#six" onclick="togglePageLinks()">KOLDIOXIDLAGRING SKOG</a>
+      <a href="#five" onclick="togglePageLinks()" t="navbar.section_five"></a>
+      <a href="#six" onclick="togglePageLinks()" t="navbar.section_six"></a>
       <a href="#seven" onclick="togglePageLinks()">STOR KLIMATEFFEKT NU</a>
       <a href="#eight" onclick="togglePageLinks()">ERBJUDANDE FÖRETAG</a>
       <a href="#ten" onclick="togglePageLinks()">SAMARBETE SKOGSÄGARE</a>
       <a href="./q&a.html" onclick="togglePageLinks()">FRÅGOR OCH SVAR</a>
       <a href="./berakningsmodell.html">BERÄKNINGMODELL</a>
       <a href="#footer" onclick="togglePageLinks()">OM OSS</a>
-      <a href="#en" onclick="togglePageLinks()">ENGLISH</a>
+      <a href="#" onclick="togglePageLinks(); toggleLanguage()" t="navbar.language"></a>
     </div>
     <div class="icon-wrapper">
       <a href="javascript:void(0);" class="icon" onclick="togglePageLinks()">
@@ -70,7 +70,7 @@
   <!--Section 1-->
 
   <section class="section section-one">
-    <h1 id="demo">8 År, 82 dagar, <br>11 timmar, 37 minuter <br> och 31 sekunder </h1>
+    <h1 id="demo" t="page_index.section_one.title">0 År, 00 dagar, <br>00 timmar, 00 minuter <br> och 00 sekunder</h1>
   </section>
 
   <section class="section section-two">
@@ -208,6 +208,8 @@
       </div>
     </div>
   </footer>
+  <script src="i18n/translations.js"></script>
+  <script src="i18n/index.js"></script>
   <script src="src/animations.js"></script>
   <script src="src/index.js"></script>
 </body>

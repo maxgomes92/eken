@@ -51,7 +51,14 @@ function setTime() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = years + " År, " + days + " dagar, " + "<br>" + hours + " timmar, " + minutes + " minuter " + "<br>" + " och " + seconds + " sekunder ";
+  const title = t('page_index.section_one.title')
+    .replace('{years}', years)
+    .replace('{hours}', hours)
+    .replace('{days}', days)
+    .replace('{minutes}', minutes)
+    .replace('{seconds}', seconds)
+
+  document.getElementById("demo").innerHTML = title
 
   // If the count down is over, write some text 
   if (distance < 0) {
