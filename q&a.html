@@ -34,60 +34,30 @@
 <body>
     <section>
 
-        <h1>Frågor & svar</h1>
+        <h1 t="qa.title"></h1>
 
-
-        <button onclick="toggleTextEl('hide')">Vad är CO2e?</button>
+        <button onclick="toggleTextEl('hide')" t="qa.question_one"></button>
     
-        <div id="hide" style="display:none">
-            CO2e=koldioxidekvivalenter (ett ton). Klimatutsläpp och växthusgaser
-            används som begrepp för att prata om de gaser som påverkar vårt klimat.
-            Koldioxid, metan, lustgas och ytterligare några gaser räknas in i denna grupp. De
-            finns naturligt, men mänskliga aktiviteter har väsentligt ökat utsläppen. Genom
-            att uttrycka växthusgasutsläpp i koldioxidekvivalenter kan man jämföra de
-            enskilda gasernas bidrag till växthuseffekten. <br><br>
-            Grovt sett kommer koldioxid från förbränning av fossila bränslen, metan från
-            djurens matsmältning och nedbrytning av torvmarker; och lustgas släpps ut från
-            marken vid odling. När utsläppen av en viss växthusgas uttrycks i
-            koldioxidekvivalenter anges hur mycket koldioxid det motsvarar för att
-            ge samma verkan på klimatet. Metan bidrar 21 gånger mer till växthuseffekten
-            än koldioxid, och ett metanutsläpp på 1 ton motsvarar därför 21
-            ton koldioxidekvivalenter.<br><br>
-            Källa: WWF.
-        </div>
+        <div id="hide" style="display:none" t="qa.answer_one"></div>
 
         <br>
 
-        <button onclick="toggleTextEl('hide2')">Vad är additionalitet?</button>
+        <button onclick="toggleTextEl('hide2')" t="qa.question_two"></button>
 
-        <div id="hide2" style="display:none">
-            Det är oerhört viktigt att klimatinvesteringar har additionalitet. Det innebär att klimatnyttan inte
-    skulle ha skett utan de resurser som investeras i projektet. Därför erbjuder vi endast koldioxidlagring
-    i avverkningsplanerade träd. En avverkning skulle ha inneburit utsläpp av koldioxid och dessutom
-    tillkommer ytterligare koldioxidlagring under de tio år som träden fortsätter att växa.
-        </div>
+        <div id="hide2" style="display:none" t="qa.answer_two"></div>
     
         <br>
     
-        <button onclick="toggleTextEl('hide3')">Vad är en planerad avverkning?</button>
+        <button onclick="toggleTextEl('hide3')" t="qa.question_three"></button>
     
-        <div id="hide3" style="display:none">
-            En avverkning på 0,5 hektar eller mer måste anmälas till Skogsstyrelsen och är giltig i fem år. På
-            <a href="https://avverkningskoll.se/karta2.php">avverkningskoll.se</a> visas alla aktuella avverkningsanmälningar, alltså de som kommit in de senaste fem åren och
-            som ännu inte markerats som “Avverkat” eller “Avslutat”.
-        </div>
+        <div id="hide3" style="display:none" t="qa.answer_three"></div>
     
         <br>
     
     
-        <button onclick="toggleTextEl('hide4')">Är skog världens effektivaste och största kollager?</button>
+        <button onclick="toggleTextEl('hide4')" t="qa.question_four"></button>
     
-        <div id="hide4" style="display:none">
-            Befintlig skog har störst potential för omedelbar klimateffekt. Den globala
-            potentialen uppgår till 1,4 miljarder ton CO2e per år. <br><br>
-            Källa: Natural climate solutions (2017). Proceedings of the National Academy of
-            Sciences.
-        </div>
+        <div id="hide4" style="display:none" t="qa.answer_four"></div>
     
         <br>
     
@@ -223,6 +193,8 @@
 
     </section>
 
+    <script src="i18n/translations.js"></script>
+    <script src="i18n/index.js"></script>
     <script src="./src/q&a.js"></script>
     
 </body>

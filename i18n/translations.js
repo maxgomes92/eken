@@ -51,12 +51,28 @@ const i18n = {
         text: 'Our offer EKEN PLUS10 gives forest owners an economical opportunity to let trees grow. We also support research and development that enables forest owners to shift to a profitable and climate-smart forestry as soon as possible. If they want to.'
       },
       footer: {
-        text:'EKEN FINANCING was founded in the meeting between the commercial forest industry and eco-based forestry. Our starting point has been 25 years of data from climate-smart forestry, established science and new technology.',
-        tel:'Contact: +4670-2603682',
-        mail:'<a href="mailto:info@ekenfinancing.com">info@ekenfinancing.com</a>'
+        text: 'EKEN FINANCING was founded in the meeting between the commercial forest industry and eco-based forestry. Our starting point has been 25 years of data from climate-smart forestry, established science and new technology.',
+        tel: 'Contact: +4670-2603682',
+        mail: '<a href="mailto:info@ekenfinancing.com">info@ekenfinancing.com</a>'
       },
     },
+    qa: {
+      title: 'Questions & Answers',
+      question_one: 'What is CO2e?',
+      answer_one: 'CO2e = carbon dioxide equivalents (one tonne). Climate emissions and greenhouse gases are used as a term for the gases that affect our climate. Carbon dioxide, methane, nitrous oxide and a few other gases are included in this group. They exist naturally, but human activities have significantly increased emissions. By expressing greenhouse gas emissions in carbon dioxide equivalents, the contribution of the individual gases to the greenhouse effect can be compared.<br><br>Roughly speaking, carbon dioxide comes from the burning of fossil fuels, methane from animal digestion and the decomposition of peatlands; and nitrous oxide is released from the soil during cultivation. When emissions of a certain greenhouse gas are expressed in carbon dioxide equivalents, it is stated how much carbon dioxide it corresponds to for the same effect on the climate. Methane contributes 21 times more to the greenhouse effect than carbon dioxide, and a methane emission of 1 tonne therefore corresponds to 21 tonnes of carbon dioxide equivalents.<br><br>Source: WWF.',
+      
+      question_two: 'What is additionality?',
+      answer_two: 'It is extremely important that climate investments have additionality. This means that the positive climate effect would not have happened without the resources invested in the project. Therefore, we only offer carbon storage in trees planned for felling. A felling would have meant emissions of carbon dioxide, and additional carbon storage will be added during the ten years that the trees continue to grow.',
+
+      question_three: 'What is a planned felling?',
+      answer_three: 'A felling of 0.5 hectares or more must be reported to the Swedish Forest Agency and is valid for five years. <a href="https://avverkningskoll.se/karta2.php">avverkningskoll.se</a> shows all current felling reports, ie felling reports that have been received in the last five years and which have not yet been marked as "Felled" or "Completed".',
+     
+      question_four: 'Is forest the world\'s most efficient and largest carbon stock?',
+      answer_four: 'Mature forests have the greatest potential for immediate climate effect. The global potential amounts to 1.4 billion tonnes of CO2e per year.<br><br>Source: Natural climate solutions (2017). Proceedings of the National Academy of Sciences.',
+    
+    },
   },
+
   sv: {
     navbar: {
       section_five: 'SKOGEN ÄR HALVFULL',
@@ -109,10 +125,25 @@ const i18n = {
         text: 'Vårt erbjudande EKEN PLUS10 ger skogsägare en ekonomisk möjlighet att låta träd växa tio år till. Vi stöttar även forskning och utveckling som underlättar för skogsägare att på lång sikt kunna ställa om till framtidens lönsamma och klimatsmarta skogsbruk.'
       },
       footer: {
-        text:'EKEN FINANCING startades i mötet mellan kompetenser från den kommersiella skogsindustrin och ekobaserat skogsbruk. Vår utgångspunkt har varit 25 års data från klimatsmart skogsbruk, etablerad vetenskap och ny teknologi.',
-        tel:'Telefon: 070-2603682',
-        mail:'E-post: <a href="mailto:info@ekenfinancing.com">info@ekenfinancing.com</a>'
+        text: 'EKEN FINANCING startades i mötet mellan kompetenser från den kommersiella skogsindustrin och ekobaserat skogsbruk. Vår utgångspunkt har varit 25 års data från klimatsmart skogsbruk, etablerad vetenskap och ny teknologi.',
+        tel: 'Telefon: 070-2603682',
+        mail: 'E-post: <a href="mailto:info@ekenfinancing.com">info@ekenfinancing.com</a>'
       },
+    },
+    qa: {
+      title: 'Frågor och svar',
+
+      question_one: 'Vad är CO2e?',
+      answer_one: 'CO2e=koldioxidekvivalenter (ett ton). Klimatutsläpp och växthusgaser används som begrepp för att prata om de gaser som påverkar vårt klimat. Koldioxid, metan, lustgas och ytterligare några gaser räknas in i denna grupp. De finns naturligt, men mänskliga aktiviteter har väsentligt ökat utsläppen. Genom att uttrycka växthusgasutsläpp i koldioxidekvivalenter kan man jämföra de enskilda gasernas bidrag till växthuseffekten.<br><br>Grovt sett kommer koldioxid från förbränning av fossila bränslen, metan från djurens matsmältning och nedbrytning av torvmarker; och lustgas släpps ut från marken vid odling. När utsläppen av en viss växthusgas uttrycks i koldioxidekvivalenter anges hur mycket koldioxid det motsvarar för att ge samma verkan på klimatet. Metan bidrar 21 gånger mer till växthuseffekten än koldioxid, och ett metanutsläpp på 1 ton motsvarar därför 21 ton koldioxidekvivalenter.<br><br> Källa: WWF.',
+      
+      question_two: 'Vad är additionalitet?',
+      answer_two: 'Det är oerhört viktigt att klimatinvesteringar har additionalitet. Det innebär att klimatnyttan inte skulle ha skett utan de resurser som investeras i projektet. Därför erbjuder vi endast koldioxidlagring i avverkningsplanerade träd. En avverkning skulle ha inneburit utsläpp av koldioxid och dessutom tillkommer ytterligare koldioxidlagring under de tio år som träden fortsätter att växa.',
+
+      question_three: 'Vad är en planerad avverkning?',
+      answer_three: 'En avverkning på 0,5 hektar eller mer måste anmälas till Skogsstyrelsen och är giltig i fem år. På <a href="https://avverkningskoll.se/karta2.php">avverkningskoll.se</a> visas alla aktuella avverkningsanmälningar, alltså de som kommit in de senaste fem åren och som ännu inte markerats som “Avverkat” eller “Avslutat”.',
+    
+      question_four: 'Är skog världens effektivaste och största kollager?',
+      answer_four: 'Befintlig skog har störst potential för omedelbar klimateffekt. Den globala potentialen uppgår till 1,4 miljarder ton CO2e per år.<br><br>Källa: Natural climate solutions (2017). Proceedings of the National Academy of Sciences.',
     },
   },
 }
