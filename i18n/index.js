@@ -16,6 +16,10 @@ function get (obj, key) {
   const attributes = key.split('.')
 
   return attributes.reduce((acc, attribute) => {
+    if (!acc[attribute]) {
+      throw new Error(`Missing translation for ${key} (${language})`)
+    }
+    
     return acc[attribute]
   }, obj)
 }
