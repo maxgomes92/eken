@@ -102,6 +102,9 @@ const i18n = {
       title: 'Calculation model',
       text: 'The calculation is an example of the climate effect of EKEN STOP10 on a normal-sized Swedish felling notification (2.3 ha). The figures are based on historical and average data from the National Forest Assessment, SLU and the Swedish Forest Agency, IPCC research, as well as articles published in well-established scientific publications such as Nature and PNAS. In our collaborations, each forest is calculated individually to ensure the real climate effect.<br></br>The climate effect of postponing trees planned for felling with ten years is twofold; partly an unrealized negative effect, partly an additional positive effect.',
     },
+    image: {
+      symbol1: '<img src=".//assets/symbol1-green.png">',
+    },
   },
   sv: {
     title: {
@@ -206,6 +209,9 @@ const i18n = {
     calc: {
       title: 'Klimateffekt EKEN STOP10 för en normalstor svensk avverkning',
       text: 'Beräkningen är ett exempel på klimateffekten av EKEN STOP10 på en normalstor svensk avverkningsanmälan (2,3 ha). Siffrorna är baserade på historiska och genomsnittliga data från Riksskogstaxeringen, SLU och Skogsstyrelsen, forskning från IPCC, samt artiklar publicerade i väletablerade naturvetenskapliga publikationer som t ex Nature och PNAS. I våra samarbeten beräknas varje enskild skog individuellt för att säkerställa verklig klimateffekt.<br><br><b>Klimateffekten av att avverkningsplanerade träd växer i ytterligare tio år är tvåfaldig; dels en ej realiserad negativ effekt och dels en tillkommande positiv effekt.</b>'
+    },
+    image: {
+      symbol1: '<img src=".//assets/symbol1.png">',
     },
   },
 }
