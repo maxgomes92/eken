@@ -1,7 +1,11 @@
-function goTo (url) {
-  window.location.href = url + window.location.search
+function goTo(url) {
+  if (window.location.hostname.endsWith('github.io')) {
+    window.location.href = '/eken' + url + window.location.search
+  } else {
+    window.location.href = url + window.location.search
+  }
 }
- 
+
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function togglePageLinks() {
   const pageLinksEl = document.querySelector(".page-links");
