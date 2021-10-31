@@ -57,6 +57,7 @@ h1 {
   display: flex;
   padding-left: 20px;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 /* Add an active class to highlight the current page */
@@ -354,8 +355,6 @@ footer .info-wrapper {
   align-self: flex-end;
 }
 
-
-
 footer .info-wrapper p {
   margin-bottom: 10px;
 }
@@ -369,8 +368,6 @@ footer .text {
   display: inline-block;
   padding-left: 25px;
 }
-
-
 
 /* Breakpoints */
 
@@ -391,25 +388,24 @@ footer .text {
     padding: 0;
     text-align: right;
     background: rgba(0, 0, 0, .4);
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     z-index: 1;
   }
   .topnav .page-links-mobile a {
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 20px;
   }
   .section-one h1 {
     margin-top: calc(5% - 100px);
   }
-  
   .headline {
     opacity: 1;
   }
-
   .section-ten .text-show-phone {
     display: none;
   }
-
 }
 
 /* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
@@ -418,11 +414,9 @@ footer .text {
   .section {
     min-height: 100vh;
   }
-
   .section .title {
     padding-left: 40px;
   }
-
   .section p {
     padding-left: 40px;
   }
@@ -471,11 +465,9 @@ footer .text {
   .section-seven {
     padding-right: 40px;
   }
-
   .section-six img {
     display: none;
   }
-
   h1 {
     font-size: 55px;
   }
@@ -491,7 +483,6 @@ footer .text {
   footer .logo-wrapper {
     align-items: center;
   }
-
   .section-ten .text-show-phone {
     display: none;
   }
@@ -502,7 +493,7 @@ footer .text {
     margin-bottom: 25px;
   }
   .section-one {
-    min-height:(100vh - 55px);
+    min-height: (100vh - 55px);
   }
   .section-ten {
     padding-left: 0px;
@@ -510,19 +501,16 @@ footer .text {
     padding-bottom: 0;
     min-height: 110vh;
   }
-
   .section-ten .header {
     padding-bottom: 25px;
     margin-bottom: 0;
   }
-
   .section-ten .title {
     margin-bottom: 8px;
     padding-left: 30px;
     font-size: 48px;
     max-width: 300px;
   }
-
   .section-ten p {
     padding-left: 30px;
   }
@@ -534,7 +522,6 @@ footer .text {
     font-size: 48px;
     padding-left: 0px;
   }
-
   .section-eight {
     padding-left: 10px;
     padding-top: 70px;
@@ -613,9 +600,8 @@ footer .text {
     display: none;
   }
   footer .text {
-      display: none;
-    }
-  
+    display: none;
+  }
   .section-ten .text-show-phone {
     margin-top: 140px;
     display: block;
@@ -644,11 +630,9 @@ footer .text {
   .section-three h1 {
     font-size: 45px;
   }
-
   .section-nine .title {
     font-size: 100px;
   }
-
   .section-nine ul {
     max-width: 750px;
   }
@@ -662,12 +646,10 @@ footer .text {
   .section-seven .title {
     font-size: 35px;
   }
- 
   .section-eight {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
   .section-eight .title {
     max-width: 750px;
     font-size: 35px;
@@ -675,20 +657,16 @@ footer .text {
   .section-eight .right {
     max-width: 800px;
   }
-
   .section-eight .left {
     max-width: 800px;
   }
- 
   .section-ten p {
     font-size: 9pt;
   }
   .section-ten {
     margin-bottom: 0px;
   }
-
   .section-ten .text-show-phone {
     display: none;
   }
-
 }

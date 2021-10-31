@@ -55,10 +55,10 @@
       <a href="#seven" onclick="togglePageLinks()" t="navbar.section_seven"></a>
       <a href="#eight" onclick="togglePageLinks()" t="navbar.section_eight"></a>
       <a href="#ten" onclick="togglePageLinks()" t="navbar.section_ten"></a>
-      <a href="./q&a.html" onclick="togglePageLinks()" t="navbar.section_q_a"></a>
-      <a href="./berakningsmodell.html" t="navbar.section_calc"></a>
+      <a onclick="goTo('/q&a.html')" t="navbar.section_q_a"></a>
+      <a onclick="goTo('/berakningsmodell.html')" t="navbar.section_calc"></a>
       <a href="#footer" onclick="togglePageLinks()" t="navbar.section_about"></a>
-      <a href="#" onclick="togglePageLinks(); toggleLanguage()" t="navbar.language"></a>
+      <a onclick="togglePageLinks(); toggleLanguage()" t="navbar.language"></a>
     </div>
     <div class="icon-wrapper">
       <a href="javascript:void(0);" class="icon" onclick="togglePageLinks()">
@@ -115,7 +115,8 @@
     <div>
       <p class="right" t="page_index.section_eight.text"></p>
       <p class="left" t="page_index.section_eight.text2">
-        <br class="hide"></p>
+        <br class="hide">
+      </p>
     </div>
   </section>
 
@@ -155,10 +156,10 @@
     </div>
     </div>
   </footer>
-  <script src="i18n/translations.js"></script>
-  <script src="i18n/index.js"></script>
-  <script src="src/animations.js"></script>
-  <script src="src/index.js"></script>
+  <script src="./i18n/translations.js"></script>
+  <script src="./i18n/index.js"></script>
+  <script src="./src/animations.js"></script>
+  <script src="./src/index.js"></script>
 </body>
 
 </html>
