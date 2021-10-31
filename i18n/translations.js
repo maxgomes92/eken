@@ -1,5 +1,10 @@
 const i18n = {
   en: {
+
+    title: {
+    qa:'EKEN FINANCING - Q&A',
+    calc:'EKEN FINANCING - Calculation model',
+    },
     navbar: {
       section_five: 'HALF FULL FORESTS',
       section_six: 'CARBON STORAGE IN FORESTS',
@@ -16,7 +21,7 @@ const i18n = {
         title: '{years} Years, {days} days, <br> {hours} hours, {minutes} minutes <br> and {seconds} seconds',
       },
       section_two: {
-        title: 'Living like there is no<span style="color: #3D1107"> tomorrow</span>, might just mean that..'
+        title: 'Living like there is no tomorrow, might just mean that..'
       },
       section_three: {
         title: 'We need climate solutions with impact.<br><br>Today.',
@@ -101,6 +106,11 @@ const i18n = {
     },
 
   sv: {
+
+    title: {
+      qa:'EKEN FINANCING - Frågor & Svar',
+      calc:'EKEN FINANCING - Beräkningsmodell',
+      },
     navbar: {
       section_five: 'SKOGEN ÄR HALVFULL',
       section_six: 'KOLDIOXIDLAGRING SKOG',
