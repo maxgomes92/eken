@@ -576,7 +576,7 @@ footer .text {
   }
   .section-four .title {
     padding-left: 10px;
-    max-width: 300px;
+    max-width: 350px;
   }
   .section-four p {
     padding-left: 10px;
@@ -605,6 +605,7 @@ footer .text {
   .section-ten .text-show-phone {
     margin-top: 140px;
     display: block;
+    padding-left: 30px;
   }
 }
 
