@@ -3,6 +3,8 @@
   src: url('../fonts/HudsonNYProBold/font.woff2') format('woff2'), url('../fonts/HudsonNYProBold/font.woff') format('woff');
 }
 
+/* Generic */
+
 body {
   background-color: #fff;
 }
@@ -11,9 +13,10 @@ h1 {
   font-family: "HudsonNYPro-Bold";
   font-size: 70px;
   letter-spacing: -0.5px;
+  line-height: 1.06;
 }
 
-/* Add a black background color to the top navigation */
+/* Top navigation */
 
 .topnav {
   background-color: #F04E37;
@@ -32,8 +35,6 @@ h1 {
   width: 110px;
 }
 
-/* Style the links inside the navigation bar */
-
 .topnav a {
   color: white;
   text-decoration: none;
@@ -42,8 +43,6 @@ h1 {
   font-weight: bold;
   display: block;
 }
-
-/* Hide the link that should open and close the topnav on small screens */
 
 .topnav .icon-wrapper {
   flex-grow: 1;
@@ -60,12 +59,12 @@ h1 {
   cursor: pointer;
 }
 
-/* Add an active class to highlight the current page */
-
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
 }
+
+/* Generic */
 
 .section {
   min-height: 100vh;
@@ -150,7 +149,7 @@ h1 {
 
 .section-five {
   align-items: flex-start;
-  background-image: url("../assets/bg3.jpg");
+  background-image: url("../assets/bg3.gif");
   color: white;
 }
 
@@ -158,7 +157,7 @@ h1 {
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width: 800px;
+  max-width: 740px;
 }
 
 .section-five p {
@@ -227,7 +226,7 @@ h1 {
   margin-bottom: 40px;
   text-align: left;
   padding-left: 100px;
-  max-width: 940px;
+  max-width: 900px;
 }
 
 .section-eight img {
@@ -243,7 +242,6 @@ h1 {
 
 .section-eight .left {
   padding-left: 40px;
-  max-width: 500px;
 }
 
 .section-eight div {
@@ -369,9 +367,12 @@ footer .text {
   padding-left: 25px;
 }
 
-/* Breakpoints */
+/* Breakpoint, 1200px */
 
 @media only screen and (max-width:1200px) {
+
+  /* Top nav, 1200px */
+
   .topnav .page-links {
     display: none;
   }
@@ -397,20 +398,32 @@ footer .text {
     padding-bottom: 10px;
     padding-right: 20px;
   }
+
+   /* Section 1, 1200px */
+
   .section-one h1 {
     margin-top: calc(5% - 100px);
   }
+
+   /* Animation section 3, 1200px */
+
   .headline {
     opacity: 1;
   }
+
+   /* Section 10, 1200px */ 
+
   .section-ten .text-show-phone {
     display: none;
   }
 }
 
-/* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
+/* Breakpoint, "iPad/Tablet" */
 
 @media only screen and (max-width: 992px) {
+
+  /* Generic, "iPad/Tablet" */
+
   .section {
     min-height: 100vh;
   }
@@ -420,54 +433,7 @@ footer .text {
   .section p {
     padding-left: 40px;
   }
-  .section-ten {
-    padding-left: 20px;
-    padding-right: 50px;
-    margin-bottom: 0px;
-  }
-  .section-ten img {
-    display: none;
-  }
-  .section-nine {
-    padding-left: 40px;
-    padding-right: 50px;
-    min-height: 500px;
-  }
-  .section-nine .title {
-    font-size: 100px;
-    letter-spacing: 0px;
-    padding-left: 10px;
-  }
-  .section-eight {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-  }
-  .section-eight img {
-    display: none;
-  }
-  .section-eight .title {
-    margin-bottom: 40px;
-  }
-  .section-eight .right {
-    max-width: 500px;
-    padding-left: 40px;
-  }
-  .section-eight .left {
-    max-width: 500px;
-  }
-  .section-eight div {
-    display: block;
-  }
-  .section-eight .hide {
-    display: block;
-  }
-  .section-seven {
-    padding-right: 40px;
-  }
-  .section-six img {
-    display: none;
-  }
+
   h1 {
     font-size: 55px;
   }
@@ -480,21 +446,195 @@ footer .text {
   nav {
     display: none;
   }
-  footer .logo-wrapper {
-    align-items: center;
+
+  /* Section 6, "iPad/Tablet" */
+
+  .section-six img {
+    display: none;
   }
+
+  /* Section 7, "iPad/Tablet" */
+
+  .section-seven {
+    padding-right: 40px;
+  }
+
+  /* Section 8, "iPad/Tablet" */
+
+  .section-eight {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+  }
+  .section-eight img {
+    display: none;
+  }
+  .section-eight .title {
+    margin-bottom: 40px;
+  }
+  .section-eight .right {
+    padding-left: 40px;
+  }
+  .section-eight div {
+    display: block;
+  }
+ 
+
+  /* Section 9, "iPad/Tablet" */
+
+  .section-nine {
+    padding-left: 40px;
+    padding-right: 50px;
+    min-height: 500px;
+  }
+  .section-nine .title {
+    font-size: 100px;
+    letter-spacing: 0px;
+    padding-left: 10px;
+  }
+
+  /* Section 10, "iPad/Tablet" */
+
+  .section-ten {
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+  }
+  .section-ten img {
+    display: none;
+  }
+  
   .section-ten .text-show-phone {
     display: none;
   }
+ 
+  /* Footer, "iPad/Tablet" */
+  
+  footer .logo-wrapper {
+    align-items: center;
+  }
+  
 }
 
+/* Breakpoint, "iPhone/phone" */
+
+
 @media only screen and (max-width: 600px) {
+
+  /* Generic, "iPhone/phone" */
+
   .section .title {
     margin-bottom: 25px;
   }
+
+  .section p {
+    max-width: 400px;
+  }
+  .section ul {
+    max-width: 400px;
+  }
+  h1 {
+    font-size: 31px;
+  }
+  p {
+    font-size: 10px;
+  }
+  ul {
+    font-size: 10px;
+  }
+  nav {
+    display: none;
+  }
+
+  /* Section 1, "iPhone/phone" */
+
   .section-one {
     min-height: (100vh - 55px);
   }
+
+   /* Section 4, "iPhone/phone" */
+
+   .section-four .title {
+    padding-left: 10px;
+    max-width: 350px;
+  }
+  .section-four p {
+    padding-left: 10px;
+  }
+
+  /* Section 5, "iPhone/phone" */
+
+  .section-five .title {
+    padding-left: 10px;
+    max-width: 350px;
+  }
+  .section-five p {
+    padding-left: 10px;
+  }
+
+  /* Section 6, "iPhone/phone" */
+
+  .section-six .title {
+    padding-left: 10px;
+    max-width: 350px;
+  }
+  .section-six p {
+    padding-left: 10px;
+  }
+  .section-six img {
+    display: none;
+  }
+
+  /* Section 7, "iPhone/phone" */
+
+  .section-seven {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-seven .title {
+    padding-left: 10px;
+    max-width: 350px;
+  }
+  .section-seven p {
+    padding-left: 10px;
+  }
+
+  /* Section 8, "iPhone/phone" */
+
+  .section-eight {
+    padding-left: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section-eight .right {
+    max-width: 400px;
+    padding-left: 20px;
+  }
+  .section-eight .left {
+    max-width: 400px;
+    padding-left: 20px;
+  }
+  .section-eight .title {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .section-eight img {
+    display: none;
+  }
+
+  /* Section 9, "iPhone/phone" */
+
+  .section-nine {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .section-nine .title {
+    font-size: 48px;
+    padding-left: 0px;
+  }
+
+  /* Section 10, "iPhone/phone" */
+
   .section-ten {
     padding-left: 0px;
     padding-right: 20px;
@@ -514,113 +654,36 @@ footer .text {
   .section-ten p {
     padding-left: 30px;
   }
-  .section-nine {
-    padding-left: 30px;
-    padding-right: 20px;
-  }
-  .section-nine .title {
-    font-size: 48px;
-    padding-left: 0px;
-  }
-  .section-eight {
-    padding-left: 10px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .section-eight .right {
-    max-width: 400px;
-  }
-  .section-eight .left {
-    max-width: 400px;
-  }
-  .section-eight .title {
-    font-size: 30px;
-    padding-left: 20px;
-  }
-  .section-eight .right {
-    padding-left: 20px;
-  }
-  .section-eight .left {
-    padding-left: 20px;
-  }
-  .section-eight img {
-    display: none;
-  }
-  .section-seven {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .section-seven .title {
-    padding-left: 10px;
-    max-width: 350px;
-  }
-  .section-seven p {
-    padding-left: 10px;
-  }
-  .section-six .title {
-    padding-left: 10px;
-    max-width: 350px;
-  }
-  .section-six p {
-    padding-left: 10px;
-  }
-  .section-six img {
-    display: none;
-  }
-  .section-five .title {
-    padding-left: 10px;
-    max-width: 350px;
-  }
-  .section-five p {
-    padding-left: 10px;
-  }
-  .section-four .title {
-    padding-left: 10px;
-    max-width: 350px;
-  }
-  .section-four p {
-    padding-left: 10px;
-  }
-  .section p {
-    max-width: 400px;
-  }
-  .section ul {
-    max-width: 400px;
-  }
-  h1 {
-    font-size: 31px;
-  }
-  p {
-    font-size: 10px;
-  }
-  ul {
-    font-size: 10px;
-  }
-  nav {
-    display: none;
-  }
-  footer .text {
-    display: none;
-  }
   .section-ten .text-show-phone {
     margin-top: 140px;
     display: block;
     padding-left: 30px;
   }
+ 
+  /* footer, "iPhone/phone" */ 
+  footer .text {
+    display: none;
+  }
+  
 }
 
+/* Breakpoint, "iPhone/phone - Landscape" */
+
 @media only screen and (max-width: 992px) and (orientation: landscape) {
-  .section-ten h1 {
-    max-width: 800px;
-    font-size: 40px;
-  }
-  .section-ten .header {
-    margin-bottom: 10px;
-  }
+
+  /* Generic, "iPhone/phone - Landscape" */
+
   .section .title {
     max-width: 800px;
     font-size: 40px;
     margin-bottom: 20px;
+  }
+  .section p {
+    max-width: 790px;
+    font-size: 9pt;
+  }
+  .section ul {
+    font-size: 9pt;
   }
   .section-one h1 {
     font-size: 45px;
@@ -631,22 +694,15 @@ footer .text {
   .section-three h1 {
     font-size: 45px;
   }
-  .section-nine .title {
-    font-size: 100px;
-  }
-  .section-nine ul {
-    max-width: 750px;
-  }
-  .section p {
-    max-width: 790px;
-    font-size: 9pt;
-  }
-  .section ul {
-    font-size: 9pt;
-  }
+
+  /* Section 7, "iPhone/phone - Landscape" */
+
   .section-seven .title {
     font-size: 35px;
   }
+
+  /* Section 8, "iPhone/phone - Landscape" */
+
   .section-eight {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -661,6 +717,25 @@ footer .text {
   .section-eight .left {
     max-width: 800px;
   }
+
+  /* Section 9, "iPhone/phone - Landscape" */
+
+  .section-nine .title {
+    font-size: 100px;
+  }
+  .section-nine ul {
+    max-width: 750px;
+  }
+
+  /* Section 10, "iPhone/phone - Landscape" */
+
+  .section-ten h1 {
+    max-width: 800px;
+    font-size: 40px;
+  }
+  .section-ten .header {
+    margin-bottom: 10px;
+  } 
   .section-ten p {
     font-size: 9pt;
   }
