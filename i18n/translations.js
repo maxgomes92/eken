@@ -105,6 +105,10 @@ const i18n = {
     image: {
       symbol1: '<img src=".//assets/symbol1-en.png">',
       symbol2: '<img src=".//assets/symbol2-en.png">',
+      ill: '<img src=".//assets/illustration_en.png">',
+      beräkning1: '<img src="./assets/beräkning1_en.png">',
+      beräkning2: '<img src="./assets/beräkning2_en.png">',
+      beräkning3: '<img src="./assets/beräkning3_en.png">',
     },
   },
   sv: {
@@ -214,6 +218,10 @@ const i18n = {
     image: {
       symbol1: '<img src=".//assets/symbol1.png">',
       symbol2: '<img src=".//assets/symbol2.png">',
+      ill: '<img src=".//assets/illustration.png">',
+      beräkning1: '<img src="./assets/beräkning1.png">',
+      beräkning2: '<img src="./assets/beräkning2.png">',
+      beräkning3: '<img src="./assets/beräkning3.png">',
     },
   },
 }
